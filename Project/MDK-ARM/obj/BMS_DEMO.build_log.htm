@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+H:\2025年项目\BQ7694003外部均衡\BQ76940含均衡发货资料 20240807\3.程序\1.BQ76940（程序加CAN20240807）配外部均衡\BMS_s940\Project\MDK-ARM\BMS_DEMO.uvprojx
+Project File Date:  12/25/2024
+
+<h2>Output:</h2>
+Build target 'I2C_DEMO'
+assembling startup_stm32f10x_md.s...
+compiling main.c...
+..\..\BSP\systick.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\usart2.h(25): warning:  #47-D: incompatible redefinition of macro "DUMMY_BYTES" (declared at line 11 of "..\..\BSP\usart.h")
+  #define DUMMY_BYTES ( 0x0004 )
+..\main.c(63): warning:  #177-D: variable "i" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(63): warning:  #177-D: variable "n" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(63): warning:  #177-D: variable "t" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(63): warning:  #177-D: variable "u" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(63): warning:  #177-D: variable "r" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(63): warning:  #177-D: variable "Crc_result" was declared but never referenced
+        int i,n,t,u,r,Crc_result;
+..\main.c(64): warning:  #177-D: variable "p_USART1_ReceiveDataBuffer" was declared but never referenced
+        unsigned char p_USART1_ReceiveDataBuffer[10];
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(149): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern UV_Alarm_flag,OV_Alarm_flag,SCD_Alarm_flag,OCD_Alarm_flag,OT_Alarm_flag,UT_Alarm_flag;
+..\main.c(164): warning:  #188-D: enumerated type mixed with another type
+          LED4_ONOFF(1) ;
+..\main.c: 16 warnings, 0 errors
+compiling stm32f10x_it.c...
+..\..\BSP\systick.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\stm32f10x_it.c(212): warning:  #223-D: function "Get_USART1_StopFlag" declared implicitly
+                if( usUSART1_ReceiveDataIndex <= DUMMY_BYTES || Get_USART1_StopFlag() == USART1_STOP_TRUE )
+..\stm32f10x_it.c(222): warning:  #223-D: function "Set_USART1_StopFlag" declared implicitly
+          Set_USART1_StopFlag( USART1_STOP_TRUE );
+..\stm32f10x_it.c: 3 warnings, 0 errors
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling system_stm32f10x.c...
+compiling led.c...
+..\..\BSP\SYSTICK.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\led.c(34): warning:  #188-D: enumerated type mixed with another type
+                LED4_ONOFF(0);
+..\..\BSP\led.c(40): warning:  #188-D: enumerated type mixed with another type
+                LED1_ONOFF(0);
+..\..\BSP\led.c: 3 warnings, 0 errors
+compiling systick.c...
+..\..\BSP\SYSTICK.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\systick.c: 1 warning, 0 errors
+compiling usart.c...
+..\..\BSP\usart.c(221): warning:  #940-D: missing return statement at end of non-void function "GetValue"
+  }
+..\..\BSP\usart.c(256): warning:  #940-D: missing return statement at end of non-void function "GetKey"
+  }
+..\..\BSP\usart.c(263): warning:  #177-D: variable "i" was declared but never referenced
+        u8 i=0;
+..\..\BSP\usart.c: 3 warnings, 0 errors
+compiling i2c.c...
+..\..\BSP\SYSTICK.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\i2c.c(326): warning:  #223-D: function "memcmp" declared implicitly
+                if(  memcmp(WriteBuffer,ReadBuffer,sizeof(WriteBuffer)) == 0 ) /* 匹配数据 */
+..\..\BSP\i2c.c: 2 warnings, 0 errors
+compiling BQ76930.c...
+..\..\BSP\SYSTICK.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\usart2.h(25): warning:  #47-D: incompatible redefinition of macro "DUMMY_BYTES" (declared at line 11 of "..\..\BSP\usart.h")
+  #define DUMMY_BYTES ( 0x0004 )
+..\..\BSP\BQ76930.c(68): warning:  #188-D: enumerated type mixed with another type
+          MCU_WAKE_BQ_ONOFF(1);
+..\..\BSP\BQ76930.c(70): warning:  #188-D: enumerated type mixed with another type
+                MCU_WAKE_BQ_ONOFF(0);
+..\..\BSP\BQ76930.c(564): warning:  #177-D: variable "i" was declared but never referenced
+        int i,Sum_val;
+..\..\BSP\BQ76930.c(897): warning:  #188-D: enumerated type mixed with another type
+     MCU_WAKE_BQ_ONOFF(1);
+..\..\BSP\BQ76930.c(899): warning:  #188-D: enumerated type mixed with another type
+         MCU_WAKE_BQ_ONOFF(0);
+..\..\BSP\BQ76930.c(915): warning:  #177-D: variable "Currentbuf" was declared but never referenced
+     unsigned char Currentbuf[1];
+..\..\BSP\BQ76930.c(957): warning:  #177-D: variable "Rt" was declared but never referenced
+         float Rt=0;
+..\..\BSP\BQ76930.c(964): warning:  #177-D: variable "Tempbuf" was declared but never referenced
+     unsigned char Tempbuf[1];
+..\..\BSP\BQ76930.c(977): warning:  #177-D: variable "Rt" was declared but never referenced
+     float Rt=0;
+..\..\BSP\BQ76930.c(984): warning:  #177-D: variable "Tempbuf" was declared but never referenced
+     unsigned char Tempbuf[1];
+..\..\BSP\BQ76930.c(1220): warning:  #177-D: variable "sys_stat_2" was declared but never referenced
+    unsigned char sys_stat_1,sys_stat_2,UV_1,OV_1,UV_2,OV_2,SCD,OCD;
+..\..\BSP\BQ76930.c: 13 warnings, 0 errors
+compiling i2c1.c...
+..\..\BSP\SYSTICK.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\i2c1.c(263): warning:  #223-D: function "CRC8" declared implicitly
+        DataBuffer[3] = CRC8(DataBuffer, 3, 7);
+..\..\BSP\i2c1.c: 2 warnings, 0 errors
+compiling IO_CTRL.c...
+compiling timer.c...
+..\..\BSP\systick.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\timer.c: 1 warning, 0 errors
+compiling wdg.c...
+..\..\BSP\systick.h(7): warning:  #1295-D: Deprecated declaration Standby - give arg types
+  void Standby();
+..\..\BSP\wdg.c: 1 warning, 0 errors
+compiling usart2.c...
+compiling can.c...
+linking...
+Program Size: Code=29852 RO-data=332 RW-data=1436 ZI-data=2332  
+FromELF: creating hex file...
+".\obj\BMS_DEMO.axf" - 0 Error(s), 45 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  H:\2025年项目\BQ7694003外部均衡\BQ76940含均衡发货资料 20240807\3.程序\1.BQ76940（程序加CAN20240807）配外部均衡\BMS_s940\Project\MDK-ARM\RTE
+  E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
